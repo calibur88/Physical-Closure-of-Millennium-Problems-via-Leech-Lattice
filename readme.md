@@ -11,5 +11,3 @@ If used, please cite: `[Your Name], DHRZ, GitHub, 2025.`
 
 **License**: CC BY-NC-ND 4.0 (Images) | MIT (Data)
 
-**Disclaimer**: Numerical evidence only; not final analytic proof of RH.  
-**免责声明**: 仅为数值证据，非RH最终解析证明。
