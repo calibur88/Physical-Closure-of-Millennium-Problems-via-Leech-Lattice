@@ -30,13 +30,19 @@ ZFC可以描述Leech格的存在性（通过集合论构造），但物理证闭
 
 **定理 2.1（前向迭代算法）：**
 
-第n个黎曼零点 $\gamma_n$ 可通过以下算法构造：
+第 n 个黎曼零点 \gamma_n 可通过以下算法构造：
 
-$$\gamma_{n+1} = \gamma_n + \frac{2\pi}{\ln(\gamma_n / 2\pi)}$$
+前后项迭代（差分递推）
+\gamma{n+1} = \gamma_n + \frac{2\pi}{\ln(\gamma_n / 2\pi)}
 
-**Lambert W渐近（全局种子）：**
+Lambert W 渐近（种子公式）
+首项：
+\gamma_1 \approx \frac{2\pi}{W(2\pi/e)} = 14.134725142\ldots
 
-$$\gamma_1 \approx \frac{2\pi}{W(2\pi/e)} = 14.134725142\ldots$$
+第 n 项通式：
+\gamma_n \approx \frac{2\pi(n-3/8)}{W\!\left(\dfrac{n-3/8}{e}\right)}
+
+精度控制：以 Lambert W 公式生成初始种子，通过前后项差分迭代修正，精度随迭代次数可控。
 
 **精度验证（前50个零点）：**
 
