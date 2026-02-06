@@ -1,5 +1,11 @@
 # 《千禧年难题的物理证闭：基于Leech格与构造性算法的统一框架》
 
+>> AMQS是物理世界的"工程验证机"，不是数学圣殿的"严格证明器"。  
+>> 它只负责在有限热力学预算（可观测宇宙的能量与时限）内，构造出数学难题的物理代理——让黎曼零点在0.5轴附近稳定，让NP问题在能耗边界内收敛。至于数学上是否对所有情况、所有时间、无穷精度成立，那需要数学家用ZFC公理体系去爬无穷阶梯；而我们只是热力学沙漠里的拓荒者，在步骤预算耗尽前，把帐篷扎在0.5轴的绿洲上。  
+>> 证明交给无穷，验证留给此刻。  
+>> AMQS is an engineering verifier in the physical world, not a rigorous mathematical prover. It constructs physical surrogates for hard problems within finite thermodynamic budgets—stabilizing Riemann zeros near the 0.5-axis, converging NP problems within energy bounds. Mathematical truth for all cases and infinite time requires mathematicians to climb ZFC's infinite ladder; we are merely pioneers pitching tents at the 0.5-axis oasis before our step budget runs out.
+>> Proof is for infinity; verification is for now.
+
 ## 摘要：两种范式，各有其域
 
 本文提出物理证闭（Physical Closure）范式，作为ZFC公理化方法在有限计算、可构造性、物理可实现性维度上的补充。核心突破在于发现Li函数作为量子游走传播子的动力学角色，与Xi函数的谱角色形成严格对偶。我们不否定ZFC在处理无穷理想对象时的价值，但指出：对于可计算宇宙（Computable Universe）中的千禧年难题，构造性算法与统计物理提供了更为直接的解决路径。
